@@ -1,12 +1,12 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom';
 
-import AddExpensePage from './AddExpenseRoute';
-import EditPage from './EditPage';
-import ExpenseDashboardPage from './ExpenseDashboardRoute';
-import Header from './HeaderRoute';
-import HelpPage from './HelpRoute';
-import NotFoundPage from './NotFoundPage';
+import AddExpensePage from '../components/AddExpensePage';
+import EditPage from '../components/EditExpensePage';
+import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
+import Header from '../components/HeaderPage';
+import HelpPage from '../components/HelpPage';
+import NotFoundPage from '../components/NotFoundPage';
 
 
 const AppRouter = () => (
