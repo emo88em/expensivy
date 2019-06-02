@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
 const ExpenseDashboardPage = () => (
     <div>
@@ -29,7 +29,7 @@ const HelpPage = () => (
 
 const notfoundpage = () => (
     <div>
-        404! Page not found! 
+        404! Page not found! <Link to="/">Go Home</Link>
     </div>
 )
 
